@@ -23,8 +23,8 @@ existing database. In order to do this, we just had to add one attribute to our
 players entity by adding an additional piece of data in our table schema, shown
 below: <br>
 
-CREATE TABLE players(
-        player_id int NOT NULL,
+CREATE TABLE players( <br>
+        player_id int NOT NULL, <br>
         club_id int,
         since date NOT NULL,
         first_name varchar(20) NOT NULL,
