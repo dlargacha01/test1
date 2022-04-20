@@ -245,12 +245,15 @@ expectation, which is of course useful for a database surrounding game statistic
 ```
 DELETE FROM players * WHERE club_id = 100
 ```
+
 <br>
 Or alternatively, 
 <br>
+
 ```
 DELETE FROM employees * WHERE club_id = 100
 ```
+
 <br>
 
 Before running either of these queries, a club with `club_id=100` exists and contains both players
